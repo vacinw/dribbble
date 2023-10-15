@@ -11,18 +11,7 @@ html {
 body {
   font-size: 1.6rem;
 }
-header,
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: cadetblue;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: white;
-  padding-top: 20px;
-}
+
 .wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -34,18 +23,11 @@ footer {
 
 main {
   min-height: 400px;
-  padding-top: 50px;
 }
 
-/*  * marquee */
-.marquee {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
+main > section:first-child {
+  background: linear-gradient(180deg, #f8f7f4, #fff);
   padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: lightblue;
-  margin-bottom: 80px;
 }
 
 .search {

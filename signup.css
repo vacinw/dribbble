@@ -69,16 +69,16 @@ form > button > svg {
   height: 16px;
   width: 16px;
 }
+form > button:first-of-type {
+  color: #fff;
+  background-color: #0d0c22;
+}
 form > button:first-of-type:hover {
   border-color: #ccc;
 }
-form > button:nth-of-type(2) {
-  background-color: #0d0c22;
-  color: #fff;
-  margin-bottom: 20px;
-}
-form > button:last-of-type:hover {
-  opacity: 65%;
+
+form > button:last-of-type {
+  margin: 65px 0 20px;
 }
 form > p:first-of-type {
   position: relative;
@@ -99,74 +99,25 @@ form > p:first-of-type > span:last-child {
   width: 416px;
   display: block;
   background-color: #999;
-  height: 1px;
+  height: 0.2px;
   position: absolute;
   bottom: -10px;
 }
-.username {
-  margin-top: 75px;
-}
-.username > p {
-  color: #0d0c22;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.username > input {
-  width: 416px;
-  height: 56px;
-  border-radius: 10px;
-  border: 1.5px solid rgb(231, 231, 233);
-  padding: 18px 20px;
-  outline: none;
-}
-.username > input:hover {
-  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
-}
-.username > input:focus {
-  border-color: rgba(234, 100, 217, 0.4);
-  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
-}
-.pass {
-  margin-top: 30px;
-  margin-bottom: 32px;
-}
-.pass > p {
-  color: #0d0c22;
-  font-size: 14px;
-  width: 416px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-.pass > p > a {
-  color: #0d0c22;
-  font-weight: 300;
-}
-.pass > input {
-  width: 416px;
-  height: 56px;
-  border-radius: 10px;
-  border: 1.5px solid rgb(231, 231, 233);
-  padding: 18px 20px;
-  outline: none;
-}
-.pass > input:hover {
-  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
-}
-.pass > input:focus {
-  border-color: rgba(234, 100, 217, 0.4);
-  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
-}
-form > p:last-child {
+
+form > p:not(:first-of-type) {
   text-align: center;
   width: 416px;
   color: #0d0c22;
   font-weight: 300;
   font-size: 14px;
 }
-form > p:last-child > a {
+form > p:not(:first-of-type) > a {
   color: #0d0c22;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+form > p:nth-last-of-type(2) {
+  font-size: 12px;
+  margin: 60px 0 20px;
 }

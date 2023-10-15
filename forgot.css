@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.login {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.video {
+  position: relative;
+}
+.video svg {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  top: 45px;
+  left: 35px;
+  color: #fff;
+  z-index: 3;
+}
+.video video {
+  width: 400px;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
+.video p a {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  left: 35px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+form {
+  top: 70px;
+  width: 560px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 500px;
+  padding: 30px 60px 0px 60px;
+  font-family: sans-serif;
+}
+form > h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+form > button {
+  height: 40px;
+  width: 200px;
+  border-radius: 1e7px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0c22;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  margin-top: 22px;
+}
+
+form > button:hover {
+  opacity: 65%;
+}
+form > p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.username {
+  margin-top: 40px;
+}
+.username > p {
+  color: #0d0c22;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.username > input {
+  width: 416px;
+  height: 56px;
+  border-radius: 10px;
+  border: 2px solid rgb(231, 231, 233);
+  padding: 18px 20px;
+  outline: none;
+}
+.username > input:hover {
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+.username > input:focus {
+  border-color: rgba(234, 100, 217, 0.4);
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}

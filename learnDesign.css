@@ -11,26 +11,16 @@ html {
 body {
   font-size: 1.6rem;
 }
-header,
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: cadetblue;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: white;
-  padding-top: 20px;
+
+main > section {
+  background: linear-gradient(180deg, #f8f7f4, #fff);
 }
+
 .wrapper {
   width: 1200px;
   margin: 0 auto;
 }
 
-footer {
-  height: 150px;
-}
 button {
   padding: 16px 24px;
   border: 1px solid #333;
@@ -45,16 +35,6 @@ button {
 button.special {
   background-color: #050317;
   color: #fff;
-}
-/*  * marquee */
-.marquee {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: lightblue;
-  margin-bottom: 80px;
 }
 
 .title {
@@ -186,12 +166,7 @@ video {
   border-radius: inherit;
 }
 
-.video:hover > img {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-/*  */
+/* *JQUERRY */
 .slick-initialized.slick-slider.slick-dotted {
   width: 400px;
   height: 450px;
@@ -201,11 +176,7 @@ video {
   display: flex;
   overflow: hidden;
 }
-/* .slick-initialized.slick-slider.slick-dotted img {
-  position: absolute;
-  width: 400px;
-  height: 450px;
-} */
+
 .slick-list.draggable {
   width: 100%;
   height: 100%;
@@ -357,4 +328,8 @@ a {
   bottom: 115px;
   left: -20px;
   text-align: center;
+}
+
+.header a {
+  font-size: 14px;
 }

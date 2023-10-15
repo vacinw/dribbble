@@ -36,7 +36,12 @@ footer {
 
 main {
   min-height: 400px;
+}
+
+main > section:first-child {
   padding-top: 120px;
+
+  background: linear-gradient(180deg, #f8f7f4, #fff);
 }
 
 /* * HIRING */
