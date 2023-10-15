@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.login {
+  height: 711px;
+  display: flex;
+}
+.video {
+  position: relative;
+}
+.video svg {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  top: 45px;
+  left: 35px;
+  color: #fff;
+  z-index: 3;
+}
+.video video {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.video p a {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 45px;
+  left: 35px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+form {
+  top: 70px;
+  width: 560px;
+  position: relative;
+  left: 500px;
+  padding: 30px 60px 0px 60px;
+  font-family: sans-serif;
+}
+form > h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+form > button {
+  width: 416px;
+  height: 56px;
+  border-radius: 1e7px;
+  border: 1.5px solid rgb(231, 231, 233);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  font-weight: 600;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+form > button > svg {
+  height: 16px;
+  width: 16px;
+}
+form > button:first-of-type:hover {
+  border-color: #ccc;
+}
+form > button:nth-of-type(2) {
+  background-color: #0d0c22;
+  color: #fff;
+  margin-bottom: 20px;
+}
+form > button:last-of-type:hover {
+  opacity: 65%;
+}
+form > p:first-of-type {
+  position: relative;
+  margin-top: 22px;
+}
+form > p:first-of-type > span:first-child {
+  font-size: 14px;
+  color: #999;
+  padding: 0 16px;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+}
+form > p:first-of-type > span:last-child {
+  width: 416px;
+  display: block;
+  background-color: #999;
+  height: 1px;
+  position: absolute;
+  bottom: -10px;
+}
+.username {
+  margin-top: 75px;
+}
+.username > p {
+  color: #0d0c22;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.username > input {
+  width: 416px;
+  height: 56px;
+  border-radius: 10px;
+  border: 1.5px solid rgb(231, 231, 233);
+  padding: 18px 20px;
+  outline: none;
+}
+.username > input:hover {
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+.username > input:focus {
+  border-color: rgba(234, 100, 217, 0.4);
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+.pass {
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+.pass > p {
+  color: #0d0c22;
+  font-size: 14px;
+  width: 416px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.pass > p > a {
+  color: #0d0c22;
+  font-weight: 300;
+}
+.pass > input {
+  width: 416px;
+  height: 56px;
+  border-radius: 10px;
+  border: 1.5px solid rgb(231, 231, 233);
+  padding: 18px 20px;
+  outline: none;
+}
+.pass > input:hover {
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+.pass > input:focus {
+  border-color: rgba(234, 100, 217, 0.4);
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+form > p:last-child {
+  text-align: center;
+  width: 416px;
+  color: #0d0c22;
+  font-weight: 300;
+  font-size: 14px;
+}
+form > p:last-child > a {
+  color: #0d0c22;
+  font-weight: 400;
+}
