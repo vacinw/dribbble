@@ -290,14 +290,11 @@ button.special {
 }
 
 /* * QUOTE */
-.quote {
-  /* min-height: 32px; */
-  background-color: cadetblue;
-  text-align: center;
-  color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 120px;
+.quote-right {
+  background: linear-gradient(
+    rgb(59, 143, 221) 0%,
+    rgb(255, 197, 243) 100%
+  ) !important;
 }
 
 /* * FIND NEXT */
