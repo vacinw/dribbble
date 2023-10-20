@@ -17,23 +17,6 @@ body {
   margin: 0 auto;
 }
 
-header,
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: cadetblue;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: white;
-  padding-top: 20px;
-}
-
-footer {
-  height: 150px;
-}
-
 main {
   min-height: 400px;
 }

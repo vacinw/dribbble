@@ -43,3 +43,15 @@ document.onload = (function () {
   };
   timeItem.onclick = (e) => e.stopPropagation();
 })();
+var signupp = document.querySelector(".signup-up");
+// console.log(signupp);
+signupp.onclick = function (e) {
+  e.preventDefault();
+  window.location.href = "signup.html";
+};
+var signin = document.querySelector(".signin");
+
+signin.onclick = function (e) {
+  e.preventDefault();
+  window.location.href = "login.html";
+};
